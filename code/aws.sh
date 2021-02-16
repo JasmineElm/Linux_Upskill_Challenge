@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 ######  STRICT MODE  ###########################################
 
 set -u
@@ -17,8 +16,8 @@ _instanceIndex=0                  ##  Possible that we'd want to select another 
 _reservationIndex=0               ##  Or a specific reservation...
 
 export AWS_DEFAULT_OUTPUT="text"  ##  Makes parsing output easier
-######  FUNCTIONS    ###########################################
 
+######  FUNCTIONS    ###########################################
 
 _print_help() {
   cat <<HEREDOC
@@ -86,7 +85,6 @@ _is_instance_stopped() {
 
 }
 
-
 _start_instance() {
   if [[ $(_is_instance_stopped) == "stopped" ]]; then
     _instanceID=$(_get_instance_id)
@@ -97,7 +95,6 @@ _start_instance() {
     exit 1
     fi
   }
-
 
 _stop_instance() {
     if [[ $(_is_instance_stopped) == "stopped" ]]; then
@@ -118,8 +115,8 @@ _terminate_instances() {
 _print_info() {
   # TODO:
   ## print useful info whilst we're waiting for the instance to boot...
-
- true
+  printf "not implemented!"
+  true
 }
 
 _has_single_pk() {
@@ -220,4 +217,3 @@ main() {
 }
 
 main
-

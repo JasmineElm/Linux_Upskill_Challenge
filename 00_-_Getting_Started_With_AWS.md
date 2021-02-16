@@ -144,6 +144,6 @@ With some clever use of [subshells](https://www.linuxtopia.org/online_books/adva
 
 ## Notes
 
-1. Although I was using bash to connect to the remote machine, I did try using [putty]() also.  The connection is more involved, your `.pem` file needs [converting](https://aws.amazon.com/premiumsupport/knowledge-center/convert-pem-file-into-ppk/) to a `.ppk` file.
-2. I also tried awscli on a windows machine; the functionality seems to be essentially the same, though I'm nowhere near familiar enough with Windows scripting to write a `.bat` or `.ps1`.
+1. Although I was using bash to connect to the remote machine, I did try using [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) also.  The connection is more involved, your `.pem` file needs [converting](https://aws.amazon.com/premiumsupport/knowledge-center/convert-pem-file-into-ppk/) to a `.ppk` file.
+2. I also tried `awscli` on a windows machine; the functionality seems to be essentially the same, though I'm nowhere near familiar enough with Windows scripting to write a `.bat` or `.ps1`. Perhaps doing it all in Python would be possible?
 3. I treated this day more as an exercise in familiarising myself with AWS.  I think there's a real value in being able to spin up a new instance (and I've not seen a cloud equivalent to Linux Upskill Challenge).
