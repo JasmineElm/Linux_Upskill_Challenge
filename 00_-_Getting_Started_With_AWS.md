@@ -48,7 +48,7 @@ Once connected, let's complete the day's tasks by chaining the update commands:
 sudo apt update && sudo apt upgrade -y && sudo apt --purge autoremove -y && sudo apt clean
 ```
 
-I've included an additional couple of commands: 
+I've included an additional couple of commands:
 `apt --purge autoremove` and `apt clean` help remove defunct or orphaned packages which will save disk space.  The `t2.micro` instance standard disk is 8GB, so cleaning up after ourselves is a good habit to get into.
 
 ----
