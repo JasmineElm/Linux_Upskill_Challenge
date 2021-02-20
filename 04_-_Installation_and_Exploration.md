@@ -7,6 +7,9 @@ installing, maintaining and removing software is bread and butter stuff.  Thankf
 ```text
 (sudo) apt <verb> <argument>
 ```
+
+Verbs are things like `install` `upgrade` `remove` and so on
+
 for instance if we want to find a package named  `mc` we'd issue
 
 ```text
@@ -39,7 +42,7 @@ sudo apt upgrade
 
 The course talks about installing `mc`.  I've used this before, but never found it as fast as `cd`-ing around teh system.  Instead, I've installed another tool; `tree` (`sudo apt install tree`).
 
-`tree` gives us a tree-live view of the system. It's perhaps easier to explain it with an example. If I issue `tree` in this repo, I see:
+`tree` gives us a tree-like view of the system. It's perhaps easier to explain it with an example. If I issue `tree` in this repo, I see:
 
 ```text
 .
