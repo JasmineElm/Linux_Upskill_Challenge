@@ -1,8 +1,6 @@
 # Day 3 - `sudo` and Ownership
 
-I kind of covered the sudo tasks on [day one](01_-_Accessing_Your_server.md), but it's a good revision; screwing up permissions is easily done, and can be difficult to spot and unpick.  
-
-Getting information about file permissions and ownership is easily done using the `-l` switch in ls.The output of `ls -l` could do with a little extra explanation:
+I kind of covered the sudo tasks on [day one](00_-_Getting_Started_With_AWS.md), but it's a good revision; screwing up permissions is easily done, and can be difficult to spot and unpick.  The output of `ls -l` could do with a little extra explanation:
 
 ```bash
 -rw-r----- 1 root shadow 1172 Feb 17 10:10 shadow
